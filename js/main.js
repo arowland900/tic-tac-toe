@@ -24,6 +24,9 @@ var squares = document.querySelectorAll('td div');
 var message = document.querySelector('h1');
 
 /*----- event listeners -----*/
+document.querySelector('table').addEventListener('click', handleMove);
+document.querySelector('button').addEventListener('click', initialize);
+
 
 /*----- functions -----*/
 
