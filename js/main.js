@@ -20,6 +20,8 @@ var winningCombos = [
 var board, turn, winner
 
 /*----- cached element references -----*/
+var squares = document.querySelectorAll('td div');
+var message = document.querySelector('h1');
 
 /*----- event listeners -----*/
 
