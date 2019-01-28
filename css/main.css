@@ -1,17 +1,9 @@
 html {
   background: linear-gradient(#b4fff3, #fdfff1);
   height: 100vh;
-  /* color: mediumslateblue; */
 }
 body {
-  /* height: 50vh;   */
   margin: 0;
-  /* background-image: url(../images/giphy.gif);
-  /* height: 100vh;
-  width: 100vw; */
-  /* position: relative;
-  background-size: unset;
-  background-repeat: no-repeat; */ 
 }
 
 * {
@@ -44,14 +36,14 @@ td div {
   pointer-events: none;
 }
 
-tr td {
-  border-left: 4px solid grey;
-  border-right: 4px  solid grey;
+tr td:nth-child(2) {
+  border-left: 3px dotted black;
+  border-right: 3px  dotted black;
 }
 
-tr td {
-  border-top: 4px solid grey;
-  border-bottom: 4px solid grey;
+tr:nth-child(2) td {
+  border-top: 3px dotted black;
+  border-bottom: 3px dotted black;
 }
 
 table {
