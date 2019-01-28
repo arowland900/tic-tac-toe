@@ -1,6 +1,16 @@
-html, body {
+html {
+  background: linear-gradient(#b4fff3, #fdfff1);
   height: 100vh;
+}
+body {
+  /* height: 50vh;   */
   margin: 0;
+  /* background-image: url(../images/giphy.gif);
+  /* height: 100vh;
+  width: 100vw; */
+  /* position: relative;
+  background-size: unset;
+  background-repeat: no-repeat; */ 
 }
 
 * {
@@ -21,8 +31,8 @@ h1 {
 }
 
 td {
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 170px;
 }
 
 td div {
@@ -33,23 +43,27 @@ td div {
   pointer-events: none;
 }
 
-tr td:nth-child(2) {
-  border-left: 4px dashed grey;
-  border-right: 4px dashed grey;
+tr td {
+  border-left: 4px solid grey;
+  border-right: 4px  solid grey;
 }
 
-tr:nth-child(2) td {
-  border-top: 4px dashed grey;
-  border-bottom: 4px dashed grey;
+tr td {
+  border-top: 4px solid grey;
+  border-bottom: 4px solid grey;
+}
+
+table {
+  background-color: azure;
 }
 
 button {
   /* margin-top: 30px; */
-  /* padding: 15px; */
-  background-color: black;
-  color: white;
+  padding: 5px;
+  background-color: slateblue;
+  color: seashell;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 button:hover {
