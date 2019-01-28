@@ -1,7 +1,7 @@
 /*----- constants -----*/
 var lookup = {
-    '1': 'pink',
-    '-1': 'green',
+    '1': 'mediumslateblue',
+    '-1': 'springgreen',
     'null': 'azure'
 };
 
@@ -59,9 +59,9 @@ function render() {
     if (winner === 'T') {
         message.innerHTML = 'Tie game!';
     } else if (winner) {
-        message.innerHTML = `Congrats ${lookup[winner]}!`;
+        message.innerHTML = `Congrats ${lookup[winner] === 'mediumslateblue' ? 'Player One' : 'Player Two'}!`;
     } else {
-        message.innerHTML = `${lookup[turn]}'s Turn`;
+        message.innerHTML = `${lookup[turn] === 'mediumslateblue' ? 'Player One' : 'Player Two'}'s Turn`;
     }
 }
 
